@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Portal - Add Doctor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #f4f7f6; margin: 0; padding: 2rem; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h1 { color: #2d3748; }
+        .form-group { margin-bottom: 1rem; }
+        label { display: block; margin-bottom: 0.5rem; color: #4a5568; }
+        input { width: 100%; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; }
+        button { background: #48bb78; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem; cursor: pointer; font-weight: 600; }
+        .doctor-list { margin-top: 2rem; border-top: 1px solid #edf2f7; padding-top: 1rem; }
+        .doctor-item { background: #fff; border: 1px solid #e2e8f0; padding: 1rem; border-radius: 0.5rem; margin-bottom: 0.5rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Portal - Add New Doctor</h1>
+        <div class="form-group">
+            <label>Doctor Name</label>
+            <input type="text" id="docName" value="Dr. John Smith">
+        </div>
+        <div class="form-group">
+            <label>Specialization</label>
+            <input type="text" id="docSpec" value="Cardiology">
+        </div>
+        <button onclick="alert('Doctor Added Successfully!')">Add Doctor to System</button>
+        
+        <div class="doctor-list">
+            <h3>Registered Doctors</h3>
+            <div class="doctor-item"><strong>Dr. Sarah Connor</strong> - General Medicine</div>
+            <div class="doctor-item"><strong>Dr. John Smith</strong> - Cardiology (Recently Added)</div>
+        </div>
+    </div>
+</body>
+</html>

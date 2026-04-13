@@ -1,0 +1,27 @@
+# Maven
+target/
+*.class
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific exclusions (Non-essential / Artifacts)
+implementation_plan.md
+task.md
+walkthrough.md
+mark_archive.txt
+mark_archive (1).txt
+Final Project.txt
+submission_responses.txt
+submission_responses.md
+ehsan_submission.txt
+mohsen_submission.txt
+*.png
+eH9okf8Oe9p5gN_rFi-EoQ-Project-v1.md.html
+
+# OS
+Thumbs.db
+.DS_Store
